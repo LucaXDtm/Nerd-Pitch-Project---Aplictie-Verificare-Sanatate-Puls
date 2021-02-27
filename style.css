@@ -1,0 +1,188 @@
+body {
+	position:relative !important;
+	font-family: 'Montserrat', sans-serif;
+}
+::selection {
+	background:#222
+}
+.hero-bg {
+	height:100vh;
+	background: rgb(238,125,17);
+	background: linear-gradient(153deg, rgba(238,125,17,1) 0%, rgba(255,152,16,1) 100%);
+}
+
+
+.container {
+	position:relative;
+	height:100vh
+}
+
+#form-checker {
+	position:absolute;
+	left:50%;
+	top:25%;
+	transform:translateX(-50%);
+	
+}
+
+#input-checker {
+	width:500px;
+	height:50px
+}
+
+#button-checker {
+	width:100px;
+	height:50px
+}
+
+#validation-caution {
+	color:red;
+	margin-top:20px;
+	font-size:18px
+}
+
+.fa-stethoscope {
+	position:absolute;
+	bottom:100px;
+	right:100px;
+	font-size:200px;
+	color:#ee7d11;
+	opacity:0.6
+}
+
+.fa-notes-medical {
+	position:absolute;
+	bottom:100px;
+	left:100px;
+	font-size:200px;
+	color:#ee7d11
+}
+
+.fa-user-nurse {
+	position:absolute;
+	top:200px;
+	left:300px;
+	font-size:200px;
+	color:#ee7d11
+}
+
+.fa-syringe {
+	position:absolute;
+	top:100px;
+	right:300px;
+	font-size:150px;
+	color:#ee7d11;
+	opacity:0.7
+}
+
+#positive-answer {
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translateX(-50%);
+	color:green;
+	font-size:30px;
+	text-align:center
+}
+
+.fa-smile-wink {
+	font-size:70px
+}
+
+#negative-answer {
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translateX(-50%);
+	color:red;
+	font-size:30px;
+	text-align:center
+}
+
+.fa-frown {
+	font-size:70px;
+}
+
+
+#negative-answer-2 {
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translateX(-50%);
+	color:red;
+	font-size:30px;
+	text-align:center
+}
+
+@media screen and (max-width: 992px) {
+	.fa-stethoscope {
+	position:absolute;
+	bottom:100px;
+	right:100px;
+	font-size:150px;
+	color:#ee7d11;
+	opacity:0.6
+}
+
+.fa-notes-medical {
+	position:absolute;
+	bottom:100px;
+	left:100px;
+	font-size:150px;
+	color:#ee7d11
+}
+
+.fa-user-nurse {
+	position:absolute;
+	top:60px;
+	left:60px;
+	font-size:150px;
+	color:#ee7d11
+}
+
+.fa-syringe {
+	position:absolute;
+	top:80px;
+	right:80px;
+	font-size:100px;
+	color:#ee7d11;
+	opacity:0.7
+}
+#input-checker {
+	width:400px;
+	height:50px
+}
+
+#button-checker {
+	width:100px;
+	height:50px
+}
+}
+
+@media screen and (max-width: 576px) {
+	#input-checker {
+	width:300px;
+	height:50px
+}
+
+#button-checker {
+	width:100px;
+	height:50px
+}
+	.fa-stethoscope {
+	position:absolute;
+	bottom:100px;
+	right:50px;
+	font-size:150px;
+	color:#ee7d11;
+	opacity:0.6
+}
+
+.fa-notes-medical {
+	position:absolute;
+	bottom:100px;
+	left:50px;
+	font-size:150px;
+	color:#ee7d11
+}
+}
